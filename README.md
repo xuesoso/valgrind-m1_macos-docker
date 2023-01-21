@@ -33,3 +33,8 @@ bash run_valgrind.sh ./valgrind/b.c
 ```
 
 That should return some output...
+
+Tested OS
+-------
+
+Tested on M1 (Apple silicon) Macbook Pro 13, Monterey MacOS 12.5.1
