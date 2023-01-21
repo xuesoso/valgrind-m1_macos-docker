@@ -11,3 +11,5 @@ RUN apt-get install build-essential make cmake valgrind -y
 RUN chmod ugo+rwx /root
 RUN mkdir /valgrind && chmod ugo+rwx /valgrind
 WORKDIR /valgrind/
+
+CMD valgrind
